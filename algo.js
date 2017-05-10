@@ -4,3 +4,10 @@ var avo=string.split(",");
 console.log(avo);
 }
 deal(string);
+function calc(each){
+var list=[];
+for(var i=0;i<string.length;i++){
+  var arra=string[i];
+}
+console.log(list);
+}

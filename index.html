@@ -10,7 +10,20 @@
     <title></title>
   </head>
   <body>
+    <div id="mocha"></div>
+       <script>
+           mocha.setup('bdd');
+
+           var assert = chai.assert;
+       </script>
     <script src="tests/tests.algo.js" charset="utf-8"></script>`
     <script src="algo.js" charset="utf-8"></script>
+
+
+    <script>
+
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
   </body>
 </html>
